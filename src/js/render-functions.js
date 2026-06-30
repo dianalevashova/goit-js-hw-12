@@ -47,3 +47,11 @@ export function showLoader() {
 export function hideLoader() {
   refs.loader.classList.add('is-hidden');
 }
+
+export function showLoadMoreBtn() {
+  refs.loadMoreBtn.classList.remove('is-hidden');
+}
+
+export function hideLoadMoreBtn() {
+  refs.loadMoreBtn.classList.add('is-hidden');
+}

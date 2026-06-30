@@ -14,7 +14,7 @@
   border-radius: 4px;
   outline: none;
 }
-
+.load-more-btn,
 .form button {
   min-width: 91px;
   height: 40px;
@@ -25,6 +25,11 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+.load-more-btn {
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .form button:hover {
